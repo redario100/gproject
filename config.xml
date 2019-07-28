@@ -98,16 +98,12 @@
 	
 <platform name="android">
 <preference name="SplashScreen" value="splash" />  
-    <icon src="logo.png" />
-		<splash src="screen.png" />
-    <icon src="logo.png"   gap:platform="android"    gap:qualifier="ldpi" />
-    <icon src="logo.png"   gap:platform="android"    gap:qualifier="mdpi" />
-    <icon src="logo.png"   gap:platform="android"    gap:qualifier="hdpi" />
-    <icon src="logo.png"  gap:platform="android"    gap:qualifier="xhdpi" />
-	 <gap:splash src="screen.png"       gap:platform="android" gap:qualifier="port-ldpi" />
-    <gap:splash src="screen.png"       gap:platform="android" gap:qualifier="port-mdpi" />
-    <gap:splash src="screen.png"       gap:platform="android" gap:qualifier="port-hdpi" />
-    <gap:splash src="screen.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
+ <icon src="logo.png" />
+ <splash src="res/screen/android/splash-ldpi_200x320px.png" qualifier="ldpi"/>  
+  <splash src="res/screen/android/splash-mdpi_320x480px.png" qualifier="mdpi"/>  
+  <splash src="res/screen/android/splash-hdpi_480x800px.png" qualifier="hdpi"/>  
+  <splash src="res/screen/android/splash-xhdpi_720px1280px.png" qualifier="xhdpi"/>  
+  <splash src="res/screen/android/splash-xxhdpi_960px1600px.png" qualifier="xxhdpi"/>  
 </platform>
 
 <platform name="ios">
