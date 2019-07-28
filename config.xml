@@ -94,11 +94,12 @@
         <plugin name="com.phonegap.plugins.barcodescanner" />
     -->
 	
-	<splash src="screen.png" />  
+
 	
 <platform name="android">
 <preference name="SplashScreen" value="splash" />  
     <icon src="logo.png" />
+		<splash src="screen.png" />
     <icon src="logo.png"   gap:platform="android"    gap:qualifier="ldpi" />
     <icon src="logo.png"   gap:platform="android"    gap:qualifier="mdpi" />
     <icon src="logo.png"   gap:platform="android"    gap:qualifier="hdpi" />
