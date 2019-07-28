@@ -4,20 +4,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="./jquery.min.js"></script>
 <script src="cordova.js"></script>
+<style>
+.coverx
+{
+	background-image: url(screen.png);
+    background-attachment: fixed;
+    background-size: cover;
+	}
+</style>
 <script>
 
 $( document ).ready(function() {
 if(navigator.onLine)
             {
-			navigator.splashscreen.show();
-window.setTimeout(function () {
-    navigator.splashscreen.hide();
-}, 3000);
+			$('body').addClass('coverx');
+			
+			setTimeout(function(){ 
+
 window.location ="http://labseo.net/app2/app/core/index.html";
+			}, 3400);
+
             }
             else
             {
-$('.txtk').html('Merci d\'activer votre connexion internet!');
+$('.txtk').html('<img src="screen.png">');
             }
 
 });

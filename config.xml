@@ -94,15 +94,7 @@
 			<splash src="res/screen/android/screen.png" />
 		
 <platform name="android">
-<preference name="SplashScreen" value="splash" />  
-    <icon src="logo.png" />
-		<splash src="screen.png" />
- <splash src="res/screen/android/splash-ldpi_200x320px.png" density="land-ldpi"/>  
-  <splash src="res/screen/android/splash-mdpi_320x480px.png" density="land-mdpi"/>  
-  <splash src="res/screen/android/splash-hdpi_480x800px.png" density="land-hdpi"/>
-  <splash src="res/screen/android/splash-xhdpi_720px1280px.png" density="land-xhdpi"/>  
-  <splash src="res/screen/android/splash-xxhdpi_960px1600px.png" density="land-xxhdpi"/>  
-    <splash src="res/screen/android/screen.png" density="land-xxxhdpi"/>  
+    <icon src="logo.png" /> 
   
 </platform>
 
@@ -143,10 +135,13 @@
 </platform>
     <!-- Define app icon for each platform. -->
 
-   <preference name="SplashScreen" value="splash" />  
-<preference name="SplashScreenDelay" value="8000" />  
-<preference name="SplashShowOnlyFirstTime" value="true" /> 
+
+
+<preference name="SplashShowOnlyFirstTime" value="false" /> 
 <preference name="AutoHideSplashScreen" value="true" />
+
+<preference name="SplashScreenDelay" value="0"/>
+<preference name="FadeSplashScreenDuration" value="0"/>
 
     <!-- Define app splash screen for each platform. -->
    
