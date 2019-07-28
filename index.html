@@ -17,17 +17,21 @@
 $( document ).ready(function() {
 if(navigator.onLine)
             {
+						$('body').hide();
 			$('body').addClass('coverx');
+				$('body').fadeIn("slow");
 			
 			setTimeout(function(){ 
 
 window.location ="http://labseo.net/app2/app/core/index.html";
-			}, 3400);
+			}, 3500);
 
             }
             else
             {
-$('.txtk').html('<img src="screen.png">');
+			$('body').fadeIn();
+$('body').removeClass('coverx');
+$('.txtk').html('Merci de vérifier votre connexion internet !');
             }
 
 });
