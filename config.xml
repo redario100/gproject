@@ -24,6 +24,7 @@
 	<preference name="stay-in-webview" value="true" />
 	
    <preference name="DisallowOverscroll" value="true" />
+   
    <preference name="AppendUserAgent" value="Cordova" />
     <preference name="android-minSdkVersion" value="26" />
 	<preference name="fullscreen" value="false" />
@@ -49,7 +50,9 @@
     <preference name="android-installLocation"    value="auto" />
 
 
- <preference name="phonegap-version" value="cli-6.5.0" />
+<preference name="phonegap-version" value="cli-7.1.0" />
+<preference name="pgb-builder-version" value="2" />
+<engine name="android" spec="7.0.0" />
          <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
     <!--
         Define a specific version of PhoneGap to build into your app.
@@ -74,6 +77,7 @@
     <plugin name="cordova-plugin-network-information" />
     <plugin name="cordova-plugin-splashscreen" />
     <plugin name="cordova-plugin-vibration" />
+	<gap:plugin name="cordova-plugin-camera" source="npm" version="2.3.0" />
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
