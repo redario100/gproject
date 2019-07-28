@@ -9,6 +9,10 @@
 $( document ).ready(function() {
 if(navigator.onLine)
             {
+			navigator.splashscreen.show();
+window.setTimeout(function () {
+    navigator.splashscreen.hide();
+}, 3000);
 window.location ="http://labseo.net/app2/app/core/index.html";
             }
             else
