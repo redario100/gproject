@@ -46,8 +46,7 @@
 <preference name="SplashScreenDelay" value="4000" />  
 <preference name="AutoHideSplashScreen" value="true" />  
 <preference name="SplashMaintainAspectRatio" value="true" />  
-<preference name="SplashShowOnlyFirstTime" value="false" />  
-<preference name="StatusBarOverlaysWebView" value="false" />  
+<preference name="SplashShowOnlyFirstTime" value="true" />  
 
 
 
@@ -98,6 +97,7 @@
 	<splash src="screen.png" />  
 	
 <platform name="android">
+<preference name="SplashScreen" value="splash" />  
     <icon src="logo.png" />
     <icon src="logo.png"   gap:platform="android"    gap:qualifier="ldpi" />
     <icon src="logo.png"   gap:platform="android"    gap:qualifier="mdpi" />
