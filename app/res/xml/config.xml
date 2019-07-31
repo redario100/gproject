@@ -6,14 +6,14 @@
         id        = "com.gprojetmcc.net"
         version   = "6.0.0">
 
-    <name>G-Project</name>
+    <name>GProject</name>
 
     <description>
-     G-Project
+     GProject
     </description>
 
     <author href="http://phonegap.com" email="support@phonegap.com">
-    G-Project
+    Reda Bounar
     </author>
 	
 	<content src="index.html" />
@@ -26,7 +26,9 @@
     <param name="android-package" value="org.apache.cordova.SplashScreen" />
 </feature>
 
-
+   <preference  name = "android-minSdkVersion"  value = "14" />
+    <preference  name = "android-targetSdkVersion"  value = "28" />
+	
 	<preference name="stay-in-webview" value="true" />
 	
    <preference name="DisallowOverscroll" value="true" />
